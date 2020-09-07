@@ -1,0 +1,18 @@
+[package]
+name = "e73tbm01_ili9341_jpegdec"
+version = "0.1.0"
+authors = ["9names <60134748+9names@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+embedded-hal = "*"
+ebyte-e73-tbx-bsp = {git = "https://github.com/nrf-rs/ebyte-e73-tbx.git", features = ["tbb"]}
+nrf52832-hal = { version = "0.11.0", default-features = false, features = ["rt", "xxAA-package"], optional = true }
+cortex-m = "0.6.3"
+cortex-m-rt = "0.6.12"
+panic-semihosting = "0.5.3"
+ili9341 = "0.4.0"
+display-interface-spi = "0.4.0"
+embedded-graphics = { version = "0.6.2"}
+oorandom = "11.1.0"
+jpegdec_sys = { git = "https://github.com/9names/jpegdec_sys", branch= "master" }
