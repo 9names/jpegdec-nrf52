@@ -1,5 +1,5 @@
 [package]
-name = "e73tbm01_ili9341_jpegdec"
+name = "jpegdec-nrf52"
 version = "0.1.0"
 authors = ["9names <60134748+9names@users.noreply.github.com>"]
 edition = "2018"
